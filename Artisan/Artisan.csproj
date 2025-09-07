@@ -9,9 +9,9 @@
   </PropertyGroup>
 
 	<PropertyGroup>
-		<DalamudLibPath>$(appdata)\XIVLauncher\addon\Hooks\dev\</DalamudLibPath>
-		<DalamudPluginPath>$(appdata)\XIVLauncher\installedPlugins\Artisan\$(version)</DalamudPluginPath>
-		<DalamudDevPlugins>$(appdata)\XIVLauncher\devPlugins\Artisan\</DalamudDevPlugins>
+		<DalamudLibPath>$(appdata)\XIVLauncherCN\addon\Hooks\dev\</DalamudLibPath>
+		<DalamudPluginPath>$(appdata)\XIVLauncherCN\installedPlugins\Artisan\$(version)</DalamudPluginPath>
+		<DalamudDevPlugins>$(appdata)\XIVLauncherCN\devPlugins\Artisan\</DalamudDevPlugins>
 		<AssemblyName>Artisan</AssemblyName>
 		<RootNamespace>Artisan</RootNamespace>
 		<PackageId>Artisan</PackageId>
@@ -44,11 +44,11 @@
 		<OutputPath>$(DalamudDevPlugins)</OutputPath>
 		<NoWarn>CS1591</NoWarn>
 	</PropertyGroup>
-	
+
   <PropertyGroup>
-    <DalamudLibPath>$(appdata)\XIVLauncher\addon\Hooks\dev\</DalamudLibPath>
+    <DalamudLibPath>$(appdata)\XIVLauncherCN\addon\Hooks\dev\</DalamudLibPath>
   </PropertyGroup>
-	
+
   <ItemGroup>
     <None Include="..\.editorconfig" Link=".editorconfig" />
     <None Update="bcryptprimitives.dll">
